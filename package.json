@@ -1,6 +1,6 @@
 {
   "name": "fonzy-editor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple and extensible code editor component for React apps.",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -34,6 +34,6 @@
     "typescript": "^5.0.2"
   },
   "files": [
-    "lib/**/*"
+    "dist/**/*"
   ]
 }
